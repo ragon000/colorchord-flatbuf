@@ -167,8 +167,8 @@ void CNFGHandleInput()
 		case MotionNotify:
 			HandleMotion( report.xmotion.x, report.xmotion.y, ButtonsDown>>1 );
 			break;
-		default:
-			printf( "Event: %d\n", report.type );
+		//default:
+			//printf( "Event: %d\n", report.type );
 		}
 	}
 }
